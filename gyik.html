@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Adrien Antal">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Finn nyelv</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+		
+    </head>
+	<body>
+	
+	<div class="topnav" id="myTopnav">
+		  <a href="index.html" class="active">Kezdőlap</a>
+		   <a style="float:right" href="gyik.html">GYIK</a>
+		  <a style="float:right" href="kapcsolat.html">Kapcsolat</a>
+		  <a style="float:right" href="bemutatkozas.html">Bemutatkozás</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
+				  <li data-target="#myCarousel" data-slide-to="4"></li>
+				  <li data-target="#myCarousel" data-slide-to="5"></li>
+				  <li data-target="#myCarousel" data-slide-to="6"></li>
+				  <li data-target="#myCarousel" data-slide-to="7" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="8"></li>
+				  <li data-target="#myCarousel" data-slide-to="9"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="item"><img src="kepek/slide1.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide2.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide3.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide4.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide5.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide6.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide7.jpg" alt="" style="width:100%;"></div>
+				  <div class="item active"><img src="kepek/slide8.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide9.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide10.jpg" alt="" style="width:100%;"></div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+		  </div>		  
+		</div>
+		<div id="header_menu2">
+			<li style="float:left"><button class="button"><a href="szotanulo.html">Szótanuló</a></button></li>
+			<li style="float:right"><button class="button"><a href="tesztek.html">Tesztek</a></button></li>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="col-md-3">
+			<div class="menu">
+				<ul>
+				  <li><a href="kapcsolat.html">Kapcsolat</a></li>
+				  <li><a href="gyik.html">Gyakran ismételt kérdések</a></li>
+				  <li><a href="weboldalak.html">Hasznos weboldalak</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-md-9">
+			<div class="content">
+				<h3>Gyakran ismételt kérdések</h3>
+				<br>
+					<div class="bs-example">
+					<div class="accordion" id="accordionExample">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#collapseOne">
+									Dupla magánhangzók kiejtése</button></h2>										
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div class="card-body">
+									<p>Kérdés: Ha két magánhangzó van egymás mellett azt hogy kell ejteni? Pl.: Kuusi miinus</p><p>Válasz: Úgy kell ejteni, ahogy írva van. Vagyis: kúúszi, míínusz. Direkt írtam hosszú magánhangzókkal a kiejtést, ejtsd eleinte kifejezetten külön a két magánhangzót: kú-ú-szi, mí-í-nusz, hogy megszokd.</p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+									<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#collapseTwo">
+									Szavak kiejtése </button></h2>
+							</div>
+							<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								<div class="card-body">
+									<p>Kérdés: Lassan haladok a szavak tanulásával, 
+									viszont az ä hangot nehezen ejtem másként mint a mezei e betűt, 
+									de majd biztos beletanulok. A "veled és kenyér" szavakkal mindenki meg tudta tanulni?<p>Válasz: nagyon jó, amiket írtál az "ä" és "e" kiejtésének problémájáról, ne aggódj, minden finnül tanuló felteszi magának ezt a kérdést. </p>
+									<p>Amikor kint jártam, én sem hallottam igazán különbséget a két hang között, így nem is törődtem vele. Egészen addig, amikor az egyetem alatt, a nyári gyakorlaton a nyelvtantanár rám nem szólt, hogy ugyan tegyek már különbséget a kettő között, mert hát ugye a "művelt" finnül tudó beszéljen már normálisan. </p>
+									<p>Ő mondta, hogy a két magánhangzónak nincs igazán "abszolút" kiejtése. Nemcsak tájegységenként ejtik másként, hanem még az egymás közelében lakók is másképp képezhetik ezt a két hangzót. A lényeg ugyanis az, hogy különbözzön az "ä" és az "e" kiejtése az egyes embereknél. Tehát van, aki nyíltabban ejti az "ä"-t mint az átlag, van aki zártabban az "e"-t, vagy fordítva. A lényeg, hogy a két magánhangzó mindenkinél megkülönböztethető legyen (na ez az, amit a mi fülünk nem észlel, csak ha erősen figyelünk).  </p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+									<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#collapseThree">
+									Tippek a kiejtéshez</button></h2>                     
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								<div class="card-body">
+									<p>Kérdés: Van-e valamilyen tipp a két magánhangzó, az "ä" és "e" kiejtésére? </p><p>Válasz: A két magánhangzó kiejtésére van egy-egy tippem. Nem lesz olyan, mint a finneké, de használható: 
+									Az "e" hangot úgy próbáld meg kiejteni, hogy ejts ki egy magyar é-t, majd ugyanezzel a szájállással próbálj meg kiejteni egy rövid e-t. 
+									Az "ä" hangot pedig úgy próbálgasd, hogy ejts egy kissé zárt magyar á-t, majd ugyanezzel a szájállással egy e-t. </p>
+									<p>Én egyébként az "ä" és "e" kiejtésének gyakorlásához sokszor elismételgetem az "eläkeläinen" finn szót, persze gondosan ügyelve, sőt még el is túlozva a két magánhangzó közti különbséget. Hát nem könnyű, de mindenképpen hasznos.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<br>
+		
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="szotar.html">Szótár</a></li>
+				  <li><a href="szotanulo.html">Szótanuló</a></li>
+				  <li><a href="gyik.html">GYIK</a></li>
+				  <li><a href="kapcsolat.html">Kapcsolat</a></li>
+				  <li><a href="weboldalak.html">Hasznos weboldalak</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="nyelvleckek.html">Nyelvleckék</a></li>
+				  <li><a href="nyelvtan.html">Nyelvtan</a></li>
+				  <li><a href="tarsalgas.html">Társalgás</a></li>
+				  <li><a href="feladatok.html">Feladatok</a></li>
+				  <li><a href="tesztek.html">Tesztek</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<p>Sok szeretettel üdvözöllek a honlapomon, akár véletlenül kerültél ide, akár célirányosan, nyelvtanulási szándékkal választottad ezt a weboldalt.</p> 
+				<p>Az oldalon olyan tananyag található, aminek a segítségével bárki autodidakta hozzákezdhet a finn nyelv tanulásához</p>
+				<p>Sok sikert kívánok!</p>
+			</div>
+		</div>
+	</div>	
+
+	</body>
+</html>

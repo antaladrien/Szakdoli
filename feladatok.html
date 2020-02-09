@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Adrien Antal">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Finn nyelv</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+    </head>
+	<body>
+	
+	<div class="topnav" id="myTopnav">
+		  <a href="index.html" class="active">Kezdőlap</a>
+		   <a style="float:right" href="gyik.html">GYIK</a>
+		  <a style="float:right" href="kapcsolat.html">Kapcsolat</a>
+		  <a style="float:right" href="bemutatkozas.html">Bemutatkozás</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
+				  <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="5"></li>
+				  <li data-target="#myCarousel" data-slide-to="6"></li>
+				  <li data-target="#myCarousel" data-slide-to="7"></li>
+				  <li data-target="#myCarousel" data-slide-to="8"></li>
+				  <li data-target="#myCarousel" data-slide-to="9"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="item"><img src="kepek/slide1.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide2.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide3.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide4.jpg" alt="" style="width:100%;"></div>
+				  <div class="item active"><img src="kepek/slide5.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide6.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide7.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide8.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide9.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="kepek/slide10.jpg" alt="" style="width:100%;"></div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+		  </div>		  
+		</div>
+		<div id="header_menu2">
+			<li style="float:left"><button class="button"><a href="szotanulo.html">Szótanuló</a></button></li>
+			<li style="float:right"><button class="button"><a href="tesztek.html">Tesztek</a></button></li>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="col-md-3">
+			<div class="menu">
+				<ul>
+				  <li><a href="feladatok.html">Feladatok</a></li>
+				  <li><a href="tesztek.html">Tesztek<a></li>
+				  <li><a href="szotanulo.html">Szótanuló<a></li>
+				  <li><a href="nyelvleckek.html">Nyelvleckék<a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-md-9">
+			<div class="content">
+				<h3>Feladatok</h3>
+				<p>Ahhoz, hogy a nyelvleckék tananyaga megfelelően rögzüljön, érdemes megoldani a következő gyakorló feladatokat.</p>
+				<P>A második lecke szavaihoz kapcsolódó feladatok.</p>
+				<p>Egészítsd ki a mondatokat a megfelelő szavakkal:</p>
+				<p><b>... tämä on?</b> <span id="demo1" style="display:none"> Megoldás: <b>Mikä</b> </span>
+					<button type="button" onclick="document.getElementById('demo1').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo1').style.display='none'">Vissza</button></p>
+				<p><b>Se ... Suomi. </b>  <span id="demo2" style="display:none"> Megoldás: <b>on</b> </span>
+					<button type="button" onclick="document.getElementById('demo2').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo2').style.display='none'">Vissza</button></p>
+				<p><b>Onko tämä televisio uusi? ... .  </b> <span id="demo3" style="display:none"> Megoldás: <b>On.</b> </span>
+					<button type="button" onclick="document.getElementById('demo3').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo3').style.display='none'">Vissza</button></p>
+				<p><b>Talo ... iso, se on pieni. </b>  <span id="demo4" style="display:none"> Megoldás: <b>ei ole</b> </span>
+					<button type="button" onclick="document.getElementById('demo4').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo4').style.display='none'">Vissza</button></p>
+				<p><b>Huone on pieni ... kaunis. </b>  <span id="demo5" style="display:none"> Megoldás: <b>ja</b> </span>
+					<button type="button" onclick="document.getElementById('demo5').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo5').style.display='none'">Vissza</button></p>
+				<p><b>... tyttö nuori? On. </b>  <span id="demo6" style="display:none"> Megoldás: <b>Onko</b> </span>
+					<button type="button" onclick="document.getElementById('demo6').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo6').style.display='none'">Vissza</button></p>
+				<p><b>... tuo mies on? </b>  <span id="demo7" style="display:none"> Megoldás: <b>Kuka</b> </span>
+					<button type="button" onclick="document.getElementById('demo7').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo7').style.display='none'">Vissza</button></p>
+				<p><b>... on presidentti Koivisto? </b>  <span id="demo8" style="display:none"> Megoldás: <b>Hän</b> </span>
+					<button type="button" onclick="document.getElementById('demo8').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo8').style.display='none'">Vissza</button></p>
+				<p><b>Mikä päivä ... on? </b>  <span id="demo9" style="display:none"> Megoldás: <b>tänään</b> </span>
+					<button type="button" onclick="document.getElementById('demo9').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo9').style.display='none'">Vissza</button></p>
+					<br>
+				<p>A harmadik leckében szó volt a különböző országokról, és arról, hogy milyen nyelven beszélnek abban az országban. Vajon kitalálod-e, hogy a következő országokban beszélt nyelveket hogyan mondják finnül:</p>
+				<p><b>Sinä olet australiainen. Sinä puhut ... . </b> <span id="demo10" style="display:none"> Megoldás: <b>englantia</b> </span>
+					<button type="button" onclick="document.getElementById('demo10').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo10').style.display='none'">Vissza</button></p>
+				<p><b>Hän on skotlantilainen. Hän puhuu ... . </b> <span id="demo11" style="display:none"> Megoldás: <b>englantia</b> </span>
+					<button type="button" onclick="document.getElementById('demo11').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo11').style.display='none'">Vissza</button></p>
+				<p><b>Minä olen meksikolainen. Minä puhun ... . </b> <span id="demo12" style="display:none"> Megoldás: <b>espanjaa</b> </span>
+					<button type="button" onclick="document.getElementById('demo12').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo12').style.display='none'">Vissza</button></p>
+				<p><b>Minä olen brasiliainen. Minä puhun ... . </b> <span id="demo13" style="display:none"> Megoldás: <b>portugaliaa</b> </span>
+					<button type="button" onclick="document.getElementById('demo13').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo13').style.display='none'">Vissza</button></p>
+				<p><b>Sinä olet egyptiläinen. Sinä puhut ... .</b>  <span id="demo14" style="display:none"> Megoldás: <b>arabiaa</b> </span>
+					<button type="button" onclick="document.getElementById('demo14').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo14').style.display='none'">Vissza</button></p>
+				<p><b>Hän on itävaltalainen. Hän puhuu ... . </b> <span id="demo15" style="display:none"> Megoldás: <b>portugaliaa</b> </span>
+					<button type="button" onclick="document.getElementById('demo15').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo15').style.display='none'">Vissza</button></p>
+					<br>
+				<p>A negyedik lecke szavaihoz kapcsolódó feladatok.</p>
+				<p>Egészítsd ki a mondatokat a megfelelő szavakkal:</p>
+				<p><b>... päivää, mitä ...?</b>  <span id="demo16" style="display:none"> Megoldás: <b>Hyvää, kuuluu</b> </span>
+					<button type="button" onclick="document.getElementById('demo16').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo16').style.display='none'">Vissza</button></p>
+				<p><b>Kiitos, ... . </b> <span id="demo22" style="display:none"> Megoldás: <b>hyvää</b> </span>
+					<button type="button" onclick="document.getElementById('demo22').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo22').style.display='none'">Vissza</button></p>
+				<p><b>... te suomalainen? </b> <span id="demo17" style="display:none"> Megoldás: <b>Oletteko</b> </span>
+					<button type="button" onclick="document.getElementById('demo17').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo17').style.display='none'">Vissza</button></p>
+				<p><b>En ole, olen ... . </b> <span id="demo18" style="display:none"> Megoldás: <b>unkarilainen</b> </span>
+					<button type="button" onclick="document.getElementById('demo18').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo18').style.display='none'">Vissza</button></p>
+				<p><b>Peter, ... sinä hyvin ranskaa? </b> <span id="demo19" style="display:none"> Megoldás: <b>puhutko</b> </span>
+					<button type="button" onclick="document.getElementById('demo19').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo19').style.display='none'">Vissza</button></p>
+				<p><b>En, minä ... ranskaa ... vähän. </b> <span id="demo20" style="display:none"> Megoldás: <b>puhun, vain</b> </span>
+					<button type="button" onclick="document.getElementById('demo20').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo20').style.display='none'">Vissza</button></p>
+				<p><b>Minä puhun englantia ... hyvin, mutta suomea ... . </b> <span id="demo21" style="display:none"> Megoldás: <b>oikein, vähän</b> </span>
+					<button type="button" onclick="document.getElementById('demo21').style.display='inline'">Lássuk a megoldást!</button>
+					<button type="button" onclick="document.getElementById('demo21').style.display='none'">Vissza</button></p>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="szotar.html">Szótár</a></li>
+				  <li><a href="szotanulo.html">Szótanuló</a></li>
+				  <li><a href="gyik.html">GYIK</a></li>
+				  <li><a href="kapcsolat.html">Kapcsolat</a></li>
+				  <li><a href="weboldalak.html">Hasznos weboldalak</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="nyelvleckek.html">Nyelvleckék</a></li>
+				  <li><a href="nyelvtan.html">Nyelvtan</a></li>
+				  <li><a href="tarsalgas.html">Társalgás</a></li>
+				  <li><a href="feladatok.html">Feladatok</a></li>
+				  <li><a href="tesztek.html">Tesztek</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<p>Sok szeretettel üdvözöllek a honlapomon, akár véletlenül kerültél ide, akár célirányosan, nyelvtanulási szándékkal választottad ezt a weboldalt.</p> 
+				<p>Az oldalon olyan tananyag található, aminek a segítségével bárki autodidakta hozzákezdhet a finn nyelv tanulásához</p>
+				<p>Sok sikert kívánok!</p>
+			</div>
+		</div>
+	</div>	
+
+	</body>
+</html>

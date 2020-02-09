@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Adrien Antal">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Finn nyelv</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		
+    </head>
+	<body>
+	
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html" class="active">Kezdőlap</a>
+		   <a style="float:right" href="gyik.html">GYIK</a>
+		  <a style="float:right" href="kapcsolat.html">Kapcsolat</a>
+		  <a style="float:right" href="bemutatkozas.html">Bemutatkozás</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-wrap="true">
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
+				  <li data-target="#myCarousel" data-slide-to="4"></li>
+				  <li data-target="#myCarousel" data-slide-to="5" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="6"></li>
+				  <li data-target="#myCarousel" data-slide-to="7"></li>
+				  <li data-target="#myCarousel" data-slide-to="8"></li>
+				  <li data-target="#myCarousel" data-slide-to="9"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="item"><img src="slide1.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide2.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide3.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide4.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide5.jpg" alt="" style="width:100%;"></div>
+				  <div class="item active"><img src="slide6.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide7.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide8.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide9.jpg" alt="" style="width:100%;"></div>
+				  <div class="item"><img src="slide10.jpg" alt="" style="width:100%;"></div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+		  </div>		  
+		</div>
+		<div id="header_menu2">
+			<li style="float:left"><button class="button"><a href="szotanulo.html">Szótanuló</a></button></li>
+			<li style="float:right"><button class="button"><a href="tesztek.html">Tesztek</a></button></li>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="col-md-3">
+			<div class="menu">
+				<ul>
+				  <li><a href="tesztek.html">Teszt a leckékhez<a></li>
+				  <li><a href="quiz.html">Társalgási Quiz<a></li>
+				  <li><a href="nyelvteszt.html">Nyelvtani teszt<a></li>
+				  <li><a href="szotanulo.html">Szótanuló<a></li>
+				  <li><a href="nyelvleckek.html">Nyelvleckék</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-md-9">
+			<div class="content">
+				<h3>Nyelvtani teszt</h3>
+					<br>
+				<p>Szeretnéd tesztelni a tudásod? A lenti 15 tesztfeladattal leellenőrizheted. </p>
+				<p>A feladatokban a megadott magyar mondatok finn megfelelőit kell kiegészíteni a választható szavak egyikével. Mindegyik feladathoz csak egy jó válasz van. A teszt végén kiértékeheted azonnal a tudásodat, sőt újra is kezdheted a kitöltést, ha akarod.</p>
+				<p>
+				
+				<form name="quiz">
+				<div class="col-md-6">
+				<p>
+				<b>1. feladat: Ki ez?
+				<br>Kuka tämä ...?<br></b>
+				<blockquote>
+				<input type="radio" name="q1" value="ole">ole<br>
+				<input type="radio" name="q1" value="on">on<br>
+				<input type="radio" name="q1" value="olen">olen<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				2. feladat: Ő fiatal és szép.
+				<br>Hän ... nuori ja kaunis.<br></b>
+				<blockquote>
+				<input type="radio" name="q2" value="ei">ei<br>
+				<input type="radio" name="q2" value="ole">ole<br>
+				<input type="radio" name="q2" value="on">on<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				3. feladat: Az asszony öreg és beteg
+				<br>Nainen on vanha ... sairas.<br></b>
+				<blockquote>
+				<input type="radio" name="q3" value="ja">ja<br>
+				<input type="radio" name="q3" value="mutta">mutta<br>
+				<input type="radio" name="q3" value="ei">ei<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				4. feladat: Milyen nyelven beszélsz?
+				<br>Mitä kieltä ... puhut?<br></b>
+				<blockquote>
+				<input type="radio" name="q4" value="sinä">sinä<br>
+				<input type="radio" name="q4" value="sinun">sinun<br>
+				<input type="radio" name="q4" value="minun">minun<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				5. feladat: Milyen nap van ma?
+				<br>Mikä ... tänään on?<br></b>
+				<blockquote>
+				<input type="radio" name="q5" value="päivää">päivää<br>
+				<input type="radio" name="q5" value="päivän">päivän<br>
+				<input type="radio" name="q5" value="päivä">päivä<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				6. feladat: Holnap vasárnap lesz.
+				<br>Huomenna ... sunnuntai.<br></b>
+				<blockquote>
+				<input type="radio" name="q6" value="oli">oli<br>
+				<input type="radio" name="q6" value="on">on<br>
+				<input type="radio" name="q6" value="ole">ole<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				7. feladat: Tegnap péntek volt.
+				<br>Eilen ... perjantai<br></b>
+				<blockquote>
+				<input type="radio" name="q7" value="oli">oli<br>
+				<input type="radio" name="q7" value="olet">olet<br>
+				<input type="radio" name="q7" value="on">on<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				8. feladat: Mi a címed?
+				<br>Mikä sinun ... on?<br></b>
+				<blockquote>
+				<input type="radio" name="q8" value="osoite">osoite<br>
+				<input type="radio" name="q8" value="osoitteeni">osoitteeni<br>
+				<input type="radio" name="q8" value="osoitteesi">osoitteesi<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				</div>
+				<div class="col-md-6">
+				9. feladat: Milyen a fiú?
+				<br>Millainen poika ...?<br></b>
+				<blockquote>
+				<input type="radio" name="q9" value="ole">ole<br>
+				<input type="radio" name="q9" value="on">on<br>
+				<input type="radio" name="q9" value="olet">olet<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				10. feladat: Magyar vagy?
+				<br>... sinä unkarilainen?<br></b>
+				<blockquote>
+				<input type="radio" name="q10" value="oletko">oletko<br>
+				<input type="radio" name="q10" value="oletteko">oletteko<br>
+				<input type="radio" name="q10" value="olenko">olenko<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				11. feladat: Ti jól beszéltek finnül.
+				<br>Te ... hyvin suomea.<br></b>
+				<blockquote>
+				<input type="radio" name="q11" value="puhuu">puhuu<br>
+				<input type="radio" name="q11" value="puhutte">puhutte<br>
+				<input type="radio" name="q11" value="puhut">puhut<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				12. feladat: Ez az én szobám.
+				<br>Se huone on ... .<br></b>
+				<blockquote>
+				<input type="radio" name="q12" value="minua">minua<br>
+				<input type="radio" name="q12" value="minut">minut<br>
+				<input type="radio" name="q12" value="minun">minun<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				13. feladat: Az a te autód?
+				<br>Onko tuo auto ...?.<br></b>
+				<blockquote>
+				<input type="radio" name="q13" value="sinä">sinä<br>
+				<input type="radio" name="q13" value="sinua">sinua<br>
+				<input type="radio" name="q13" value="sinun">sinun<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				14. feladat: Beszélj finnül, Bill!
+				<br>... suomea, Bill!<br></b>
+				<blockquote>
+				<input type="radio" name="q14" value="puhu">puhu<br>
+				<input type="radio" name="q14" value="puhut">puhut<br>
+				<input type="radio" name="q14" value="puhun">puhun<br>
+				</blockquote>
+				<p><b>
+				<hr>
+				15. feladat: Légy szíves, ülj le Liisa!
+				<br>Ole hyvä ja ..., Liisa!<br></b>
+				<blockquote>
+				<input type="radio" name="q15" value="istun">istun<br>
+				<input type="radio" name="q15" value="istua">istua<br>
+				<input type="radio" name="q15" value="istu">istu<br>
+				</blockquote>
+				</div>
+				<p><b>
+				<input type="button"value="Nézzük az eredményt"onClick="getScore(this.form);"><p>
+				<input type="reset" value="Töröld a válaszokat"><p>
+				Helyes válaszok száma = <br><input type=text size=15 name= "mark"><br>
+				A pontszám százalékban = <br><input type=text size=15 name="percentage"><br>
+				</form>
+				
+				<p>
+				<form method="post" name="Form" onsubmit="" action="">
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="szotar.html">Szótár</a></li>
+				  <li><a href="szotanulo.html">Szótanuló</a></li>
+				  <li><a href="gyik.html">GYIK</a></li>
+				  <li><a href="kapcsolat.html">Kapcsolat</a></li>
+				  <li><a href="weboldalak.html">Hasznos weboldalak</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<ul>
+				  <li><a href="nyelvleckek.html">Nyelvleckék</a></li>
+				  <li><a href="nyelvtan.html">Nyelvtan</a></li>
+				  <li><a href="tarsalgas.html">Társalgás</a></li>
+				  <li><a href="feladatok.html">Feladatok</a></li>
+				  <li><a href="tesztek.html">Tesztek</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<p>Sok szeretettel üdvözöllek a honlapomon, akár véletlenül kerültél ide, akár célirányosan, nyelvtanulási szándékkal választottad ezt a weboldalt.</p> 
+				<p>Az oldalon olyan tananyag található, aminek a segítségével bárki autodidakta hozzákezdhet a finn nyelv tanulásához</p>
+				<p>Sok sikert kívánok!</p>
+			</div>
+		</div>
+	</div>	
+
+	</body>
+	<script>
+		var numQues = 15;
+		var numChoi = 3;
+		var answers = new Array(15);
+			answers[0] = "on";
+			answers[1] = "on";
+			answers[2] = "ja";
+			answers[3] = "sinä";
+			answers[4] = "päivä";
+			answers[5] = "on";
+			answers[6] = "oli";
+			answers[7] = "osoitteesi";
+			answers[8] = "on";
+			answers[9] = "oletko";
+			answers[10] = "puhutte";
+			answers[11] = "minun";
+			answers[12] = "sinun";
+			answers[13] = "puhu";
+			answers[14] = "istu";		
+	</script>
+</html>

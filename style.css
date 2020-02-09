@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Merriweather, Verdana, Geneva, Helvetica, Arial, sans-serif;
+	background-image: url('kepek/hatter1.jpg');
+}
+
+p {
+	text-align: justify;
+}
+
+#header_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 1rem;
+}
+
+#header_menu ul li {
+	text-decoration: none;
+	background-color: #cce6ff;
+	border: 2px solid #1a8cff;
+	border-radius: 15px;
+	width: 180px;
+}
+
+#header_menu li a {
+	display: block;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#header_menu ul li a:hover:not(.active) {
+	background-color: #66B2FF;
+	text-decoration: none;
+}
+
+#header_menu li a:hover {
+	border-radius: 15px;
+}
+
+.topnav {
+  background-color: #cce6ff;
+  overflow: hidden;
+  margin:24px;
+  border-radius: 15px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.topnav a:hover {
+  background-color: #66B2FF;
+  color: black;
+  border-radius: 15px;
+}
+
+.topnav a.active {
+  background-color: #66B2FF;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*
+@media screen and (max-width: 600px) {
+	.menu ul {
+		display: inline-block;
+		
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.menu ul li {
+		float: left;
+		
+	}
+}
+*/
+
+#header_menu2 {
+	list-style-type: none;
+	margin: 18px 24px 18px 24px;
+	padding: 14px 16px;
+	overflow: hidden;
+	font-size: 1rem;
+	background-color: #66B2FF;
+	color: black;
+	border: 2px solid #1a8cff;
+    border-radius: 15px;
+}
+
+#header_menu2 li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #66B2FF;
+	border-radius: 15px;
+}
+
+.header {
+  color: black;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #66B2FF;
+  color: black;
+  padding: 15px;
+  display: block;
+  padding: 14px 16px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.content {
+  background-color: #cce6ff;
+  border: 2px solid #1a8cff;
+  border-radius: 15px;
+  padding: 18px;
+  font-size: 1rem;
+}
+
+.footer {
+	margin: 24px;
+	border: 2px solid #1a8cff;
+    border-radius: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #66B2FF;
+  border: 2px solid #1a8cff;
+  border-radius: 15px;
+}
+
+.menu li a {
+	color: black;
+	font-size: 16px;
+}
+
+.menu li a:hover {
+    color: #003366;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+.row ul {
+	color: #1a8cff;
+}
+
+.row li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid;
+  list-style-position: inside;
+}
+
+.row li a {
+	color: black;
+	font-size: 1rem;
+}
+
+.row li a:hover {
+	color: #003366;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #66B2FF;
+  border: 2px solid #1a8cff;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #1a8cff;
+	color: white;
+	text-decoration: none;
+}
+
+.button:active {
+  background-color: #003366;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: block;
+  padding: 15px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #66B2FF;
+  border: 2px solid #1a8cff;
+  border-radius: 15px;
+}
+
+.button2 a {
+	color: black;
+	text-decoration: none;
+}
+
+.button2 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.button2:hover {
+	background-color: #1a8cff;
+}
+
+.button2:active {
+  background-color: #003366;
+  transform: translateY(4px);
+}
+
+.table, td {
+  background: #e6f3ff;
+  border: 1px solid #1a8cff;
+  padding: 5px;
+  width: 300px;
+  margin: auto;
+}
+
+#memory_board{
+	background:#cce6ff;
+	border:#003366 1px solid;
+	width:360px;
+	height:570px;
+	padding:12px;
+	margin:0px auto;
+}
+
+#memory_board > div{
+	border:#003366 1px solid;
+	width:90px;
+	height:70px;
+	float:left;
+	margin:10px;
+	padding:20px 10px;
+	font-size:16px;
+	cursor:pointer;
+	text-align:center;
+	vertical-align:center;
+}
+
+#test h1 {
+	font-size: 16px;
+	
+}
+
+.accordion {
+  background-color:#cce6ff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: justify;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #66B2FF;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
